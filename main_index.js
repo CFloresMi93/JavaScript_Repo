@@ -6,6 +6,6 @@ console.log("Hello Charlyn")
 
 console.log("Hello Carlos")
 
-const a = "Terricolas"
+const a = "terrícolas"
 
-console.log(a)
+console.log("Saludos ", a)
