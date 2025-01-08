@@ -1,0 +1,32 @@
+{
+  "name": "main_index.js",
+  "version": "1.0.0",
+  "description": "Test pruebas javaScript",
+  "main": "main_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CFloresMi93/JavaScript_Repo.git"
+  },
+  "keywords": [
+    "javaScript",
+    "learning",
+    "node"
+  ],
+  "author": "Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CFloresMi93/JavaScript_Repo/issues"
+  },
+  "homepage": "https://github.com/CFloresMi93/JavaScript_Repo#readme",
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends" : "standard"
+  }
+
+}

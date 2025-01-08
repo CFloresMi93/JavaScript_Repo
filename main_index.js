@@ -1,11 +1,13 @@
-console.log("Hello World")
+const os = require('node:os')
 
-console.log("Hello Kali")
+console.log('Información del sistema operativo')
 
-console.log("Hello Charlyn")
+console.log('__________________________________')
 
-console.log("Hello Carlos")
+console.log('Nombre del sistema operativo: ', os.platform())
+console.log('Versión del sistema operativo: ', os.release())
+console.log('Versión del sistema operativo: ', os.arch())
+console.log(os.hostname())
+console.log(os.machine())
 
-const a = "Antonio"
-
-console.log("Saludos ", a)
+console.log('Pepito')
